@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    @media (max-width: 768px) {
+      .content {
+          padding: 20px;
+      }
+
+      .title {
+          font-size: 2.5em;
+      }
+
+      .section h2 {
+          font-size: 1.5em;
+      }
+
+      .menu a {
+          font-size: 1em;
+          margin: 5px;
+      }
+  }
+
+  @media (max-width: 480px) {
+      .title {
+          font-size: 2.2em;
+      }
+
+      .section h2 {
+          font-size: 1.3em;
+      }
+
+      .menu a {
+          font-size: 0.9em;
+          padding: 10px 15px;
+      }
+
+      .header-image img {
+          width: 100%;
+          border-radius: 8px;
+      }
+  }
+
+  @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+  }
+  </style>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>MTsS Ar-Raswad CEngal</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid header_top_container">
+          <div class="lang_box dropdown">
+            <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
+              <img src="images/flag-uk.png" alt="flag" class=" " title="United Kingdom"> <i class="fa fa-angle-down " aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu ">
+              <a href="#" class="dropdown-item">
+                <img src="images/flag-france.png" class="" alt="flag">
+              </a>
+            </div>
+            <span>
+              English
+            </span>
+          </div>
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                (0232) 8611631
+              </span>
+            </a>
+            <a href="mailto:mtss030arraswad@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                mtss030arraswad@gmail.com
+            </a>
+            <a href="https://maps.app.goo.gl/88jqga4ppJtsThHb7">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Jalan Dipati Ewangga No. 98 Desa Cengal Japara Kuningan
+              </span>
+            </a>
+          </div>
+          <div class="social_box">
+            <a href="https://www.facebook.com/MTsArRaswadCengal/">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://x.com/intent/post?related=wordpressdotcom&text=Info%20PPDB%20MTsS%20AR-RASWAD&url=https%3A%2F%2Fmtssarraswadcengal.wordpress.com%2Finfo-ppdb%2F">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/mts_arraswad/?igshid=NDk5N2NlZjQ%3D">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo-mts.png" alt=""> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Profil Sekolah</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">PPDB</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="project.html">Galeri</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testimonial.html">Artikel</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <form class="form-inline">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </form>
+              </ul>
+              <div class="quote_btn-container">
+                <a href="" class="quote_btn">
+                  Get A Quote
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <marquee bgcolor="green" style="font-family: Righteous; font-size:15px; color:white" width="100%">Selamat Datang di Website MTsS Ar-Raswad Cengal || Terwujudnya Pendidikan yang Agamis, mencetak generasi muda handal yang siap menjadi Pelopor Islam yang Kreatif (APIK).</marquee>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      MTsS Ar-Raswad Cengal  <br>
+                      Menuju Peradaban Digitalisasi Pendidikan <br>
+                      Dengan Akhlakul Karimah
+                    </h1>
+                    <div class="btn-box">
+                      <a href="contact.html" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="service.html" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      AGAMIS <br>
+                      PELOPOR ISLAM<br>
+                      KREATIF (APIK)
+                    </h1>
+                    <div class="btn-box">
+                      <a href="contact.html" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="service.html" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      Memberantas buta Al-Qur’an <br>
+                      Menerapkan ajaran Islam <br>
+                      Soft Skill dan Hard Skill
+                    </h1>
+                    <div class="btn-box">
+                      <a href="contact.html" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="service.html" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      Menjamin mutu pendidikan nasional <br>
+                      Membentuk watak serta peradaban bangsa <br>
+                      Menjadi warga negara yang demokratis
+                    </h1>
+                    <div class="btn-box">
+                      <a href="contact.html" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="service.html" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="detail-box">
+                    <h1>
+                      beriman dan bertaqwa <br>
+                      berakhlak mulia <br>
+                      berilmu
+                    </h1>
+                    <div class="btn-box">
+                      <a href="contact.html" class="btn1">
+                        Contact Us
+                      </a>
+                      <a href="service.html" class="btn2">
+                        About Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+          <li data-target="#customCarousel1" data-slide-to="3"></li>
+          <li data-target="#customCarousel1" data-slide-to="4"></li>
+        </ol>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container">
+          <h2>
+            MTsS Ar-Raswad Cengal
+          </h2>
+          <p>
+            Madrasah Tsanawiyah Ar-Raswad Cengal
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/ifoto-ai_1736598493964.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Selayang Pandang Oleh Kepala Madrasah
+                </h5>
+                <p>
+                  Alhamdulillah info seputar MTsS Ar-Raswad Cengal hadir di hadapan pembaca sekalian, tentu dengan mempunyai tujuan tak lain adalah agar pembaca lebih mudah membaca, memahami tentang ruang lingkup lembaga MTsS Ar-Raswad Cengal.
+                </p>
+                <a href="selayangkepsek.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/note.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Visi, Misi dan Tujuan
+                </h5>
+                <p>
+                  Visi : Terwujudnya Pendidikan yang Agamis, mencetak generasi muda handal yang siap menjadi Pelopor Islam yang Kreatif (APIK). Untuk mewujudkan visi madrasah tersebut, maka MTs Ar Raswad Cengal mengembangkan dan mempertegas dalam misi madrasah. untuk mewujudkan visi dan misi tersebut...
+                </p>
+                <a href="visimisi.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/siswa.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Penerimaan peserta didik baru 
+                </h5>
+                <p>
+                  Informasi halaman ini adalah salah satu cara agar barangsiapa yang ingin bergabung atau mendaftar ke sekolah kami bisa diakses secara mandiri jarak jauh Atau bisa juga datang langsung ke kampus kami diSekretariat Panitia PPDB MTsS Ar-Raswad Cengal...
+                </p>
+                <a href="about.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/g1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Tenaga Pengajar
+                </h5>
+                <p>
+                  MTsS Ar-Raswad Cengal didukung tenaga pengajar yang ahli di bidangnya, 
+                  memberikan pendidikan berkualitas dengan pendekatan profesional. Para pendidik kami berkomitmen mencetak generasi unggul 
+                  melalui metode pengajaran inovatif, efektif, dan mendalam untuk mencapai potensi maksimal siswa.
+                </p>
+                <a href="pengajar.html">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+  <!-- about section -->
+
+  <section class="about_section">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Tentang Kami
+              </h2>
+            </div>
+            <p>
+              MTsS AR-RASWAD CENGAL adalah madrasah tsanawiyah yang terletak di Jalan Dipati Ewangga No.98, RT 026 RW 006, Desa Cengal, Kecamatan Japara, Kabupaten Kuningan, Jawa Barat, dengan kode pos 45555. Berdiri sejak tahun 1994, madrasah ini memiliki akreditasi A yang diperoleh pada tahun 2018. MTsS AR-RASWAD CENGAL terdaftar dengan NPSN 20278751 dan NSM 121232080030, serta tercatat dalam Akta Pendiriannya dengan nomor D/Wi/MTS/361/94.
+            </p>
+            <a href="service.html">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src=https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2024/02/brosur-2024.jpg?w=768.jpg width= 550>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+
+  <!-- project section -->
+
+  <section class="project_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Galeri
+        </h2>
+      </div>
+      <div class="carousel-wrap ">
+        <div class="filter_box">
+          <h6>
+            Category filter
+          </h6>
+          <nav class="owl-filter-bar">
+            <a href="#" class="item active" data-owl-filter="*">All</a>
+            <a href="#" class="item" data-owl-filter=".painting">Painting</a>
+            <a href="#" class="item" data-owl-filter=".reconstruction">Reconstruction </a>
+            <a href="#" class="item" data-owl-filter=".repair">Repairs </a>
+            <a href="#" class="item" data-owl-filter=".residential">Residential </a>
+            <a href="#" class="item" data-owl-filter=".styling">Styling </a>
+          </nav>
+        </div>
+        <div class="owl-carousel project_carousel">
+          <div class="item painting">
+            <div class="box">
+              <div class="img-box">
+                <img src=https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2019/12/img-20180212-wa0003.jpg alt="" />
+                <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Pramuka 
+                </h5>
+                <p>
+                  Pramuka atau Scout Squad MTsS Ar-Raswad Cengal Memboyong Piala Dalam Perlombaan Pramuka Tingkat MTS dan SMP Sederajat. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item reconstruction">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/latgabpks.jpg" alt="" />
+                <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Patroli Keamanan Sekolah PKS
+                </h5>
+                <p>
+                  Latihan Gabungan PKS Antar SMP dan MTS Sederajat di Polsek Jalaksana Untuk Mendapatkan Pemahaman dan Ilmu Bersama-sama.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item repair">
+            <div class="box">
+              <div class="img-box">
+                <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2022/06/img-20180421-wa0017.jpg?w=1024.jpg" alt="" />
+                <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Shalat Dhuha Berjamaah 
+                </h5>
+                <p>
+                  Kegiatan Rutin Shalat dhuha berjamaah dalam rangka membentuk pribadi yang taat agama,hebit islami di kalangan muda, serta menanamkan keimanan dan ketakwaan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item residential">
+            <div class="box">
+              <div class="img-box">
+                <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2022/06/whatsapp-image-2022-06-18-at-11.02.53-1.jpeg?w=768.jpg" alt="" />
+                <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Organisasi Siswa Intra Sekolah
+                </h5>
+                <p>
+                  Latihan Dasar Kepemimpinan Siswa (LDKS), Untuk Membangun Jiwa Kepemimpinan, Tanggung Jawab, Rasa Percaya Diri, Keterampilan Mengolah Organisasi, Serta Menanamkan Jiwa Kemandirian dan Teladan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item styling">
+            <div class="box">
+              <div class="img-box">
+                <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2022/06/img-20180727-wa0090.jpg?w=1024.jpg" alt="" />
+                <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Praktek Ibadah Haji
+                </h5>
+                <p>
+                  Praktek Ibadah Haji Memiliki Tujuan Untuk Memberikan Pemahaman dan Pengalaman Langsung Mengenai Rukun Islam Yang Kelima. Kegiatan ini Dapat Membantu Siswa Memahami Nilai-Nilai Agama, Meningkatkan Spiritualitas, Mengenal Tata Cara Haji, Menumbuhkan Kepedulian Sosial, Serta Mengembangkan Karakter Yang Berlandaskan Pada Ajaran Islam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end project section -->
+
+  <!-- client section -->
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Pesan Kesan
+        </h2>
+      </div>
+    </div>
+    <div id="customCarousel2" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/s1.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="client_info">
+                      <div class="client_name">
+                        <h5>
+                          ADNIN  
+                        </h5>
+                        <h6>
+                          Alumni
+                        </h6>
+                      </div>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      senang Bisa Bersekolah Di MTsS Ar-Raswad Cengal
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPDQFiewVgmwpfIO_uLQagX_7Rdbxu0z_skw&s.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="client_info">
+                      <div class="client_name">
+                        <h5>
+                          Selena Nur Wahyuni
+                        </h5>
+                        <h6>
+                          Alumni
+                        </h6>
+                      </div>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      banyak kenangan dan pengalaman yang di dapat di sini
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWi7-pAyvryryUP-W3PeQV7wHz27_PMdQ4JA&s.jpg" alt="">
+                  </div>
+                  <div class="detail-box">
+                    <div class="client_info">
+                      <div class="client_name">
+                        <h5>
+                          Samsul Arif
+                        </h5>
+                        <h6>
+                          Alumni
+                        </h6>
+                      </div>
+                      <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      Semoga terus berkembang Buat MTS Tercinta :)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#customCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#customCarousel2" data-slide-to="1"></li>
+        <li data-target="#customCarousel2" data-slide-to="2"></li>
+      </ol>
+    </div>
+  </section>
+  <!-- end client section -->
+
+  <!-- why us section -->
+
+  <section class="why_us_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Mengapa Pilih Kami?
+        </h2>
+      </div>
+      <div class="why_us_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/quran.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Lancar dan Fasih Membaca Al-Qur'an
+            </h5>
+            <p>
+              MTsS Ar-Raswad Cengal menanamkan nilai keunggulan dalam pendidikan, 
+              mengutamakan kemampuan lancar dan fasih dalam membaca Al-Qur'an. Dengan pembelajaran terstruktur, 
+              siswa dilatih membaca dengan tartil dan memahami makna setiap ayat. 
+              Kami berkomitmen mencetak generasi unggul dalam ilmu, spiritualitas, dan akhlak, 
+              menjadikan MTsS Ar-Raswad Cengal sebagai lembaga pendidikan yang berlandaskan Al-Qur'an dan sunnah sebagai pedoman hidup.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/notew.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              output yang mumpuni
+            </h5>
+            <p>
+              MTsS Ar-Raswad Cengal berkomitmen memberantas buta Al-Qur'an, 
+              menerapkan ajaran Islam dalam kehidupan, dan membekali ilmu serta keterampilan untuk menghadapi tuntutan zaman. 
+              Kami menggembleng generasi aktif, kreatif, dan penuh dedikasi, memupuk rasa cinta almamater, 
+              serta meningkatkan loyalitas warga madrasah sebagai wujud tanggung jawab amanah yang telah dipercayakan.
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Professional dan Berkarakter
+            </h5>
+            <p>
+              MTsS Ar-Raswad Cengal berkomitmen menjamin mutu pendidikan untuk mencerdaskan bangsa, 
+              membentuk watak dan peradaban yang bermartabat. 
+              Kami mengembangkan potensi peserta didik agar menjadi individu yang beriman, 
+              bertakwa, berakhlak mulia, sehat, berilmu, kreatif, mandiri, 
+              serta warga negara yang demokratis dan bertanggung jawab.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          Read More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end why us section -->
+
+  <!-- contact section -->
+  <section class="contact_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="col-lg-4 col-md-5 offset-md-1">
+        <div class="heading_container">
+          <h2>
+            Contact
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5 offset-md-1">
+          <div class="form_container">
+            <form action="">
+              <div>
+                <input type="text" placeholder="Your Name" />
+              </div>
+              <div>
+                <input type="text" placeholder="Phone Number" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message" />
+              </div>
+              <div class="btn_box">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: flex-end;">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.77356134674!2d108.54876247499654!3d-6.917652993081943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f10e95af15401%3A0x2c167c8d5901747c!2sMTs%20Ar-Raswad%20Cengal!5e0!3m2!1sid!2sid!4v1736614285381!5m2!1sid!2sid" 
+            width="800" 
+            height="346" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+  <!-- info section -->
+  <section class="info_section ">
+
+    <div class="container">
+      <div class="contact_nav">
+        <a href="">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span>
+            Call : (0232) 8611631
+          </span>
+        </a>
+        <a href="mailto:mtss030arraswad@gmail.com">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span>
+            Email : mtss030arraswad@gmail.com
+          </span>
+        </a>
+        <a href="https://maps.app.goo.gl/88jqga4ppJtsThHb7">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <span>
+            Jalan Dipati Ewangga No.98 RT 026 RW 006, Desa Cengal,  
+            Kecamatan Japara, Kabupaten Kuningan,  
+            Provinsi Jawa Barat,  
+            Kode Pos 45555.
+          </span>
+        </a>
+      </div>
+
+      <div class="info_top ">
+        <div class="row info_main_row">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="info_links">
+              <h4>
+                QUICK LINKS
+              </h4>
+              <div class="info_links_menu">
+                <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="" href="service.html">Profil kami</a>
+                <a class="" href="about.html"> PPDB</a>
+                <a class="" href="project.html">Galeri</a>
+                <a class="" href="testimonial.html">Artikel</a>
+                <a class="" href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
+            <div class="info_post">
+              <h5>
+                INSTAGRAM FEEDS
+              </h5>
+              <div class="post_box">
+                <div class="img-box">
+                  <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2019/12/img-20180212-wa0024.jpg?w=404.jpg" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2019/12/img-20180212-wa0042.jpg?w=412.jpg" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2019/12/img-20180212-wa0010-2.jpg?w=413.jpg" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2022/06/img20211108072805.jpg?w=1024.jpg" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2022/06/img-20180727-wa0036.jpg?w=1024.jpg" alt="">
+                </div>
+                <div class="img-box">
+                  <img src="https://mtssarraswadcengal.wordpress.com/wp-content/uploads/2019/12/dscf1668.jpg?w=1024.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info_form">
+              <h4>
+                SIGN UP
+              </h4>
+              <form action="">
+                <input type="text" placeholder="Enter Your Email" />
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info_bottom">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="info_logo">
+              <a href="">
+                <img src="images/logo-mts.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
+            <div class="social_box">
+              <a href="https://www.facebook.com/MTsArRaswadCengal/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="https://x.com/intent/post?related=wordpressdotcom&text=Info%20PPDB%20MTsS%20AR-RASWAD&url=https%3A%2F%2Fmtssarraswadcengal.wordpress.com%2Finfo-ppdb%2F">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/mts_arraswad/?igshid=NDk5N2NlZjQ%3D">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a>MiMu</a>
+      </p>
+    </div>
+  </footer>  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!--  OwlCarousel 2 - Filter -->
+  <script src="https://huynhhuynh.github.io/owlcarousel2-filter/dist/owlcarousel2-filter.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- End Google Map -->
+</body>
+</html>
